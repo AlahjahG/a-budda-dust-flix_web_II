@@ -8,13 +8,36 @@
   </head>
   <body>
     <section class="hero">
-      <video autoplay muted loop class="hero-video">
-        <source src="hero-video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div class="hero-overlay">
-        <h1>a budda dust flix</h1>
-        <p>F*ck Hollywood</p>
+      <div class="hero__overlay">
+        <h1 class="hero__title">a budda dust flix</h1>
+        <p class="hero__description">F*ck Hollywood</p>
+        <video autoplay muted loop class="hero__video">
+          <source
+            src="images/budda 20th century flix-01.mov"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="hero__button-container">
+        <button class="hero__action-button">Watch Now</button>
+      <dialog>
+    </section>
+
+    <section class="content">
+      <div class="content__container">
+        <h2 class="content__title">Latest Releases</h2>
+        <div class="content__grid">
+          <div class="content__item">
+            <img src="movie1.jpg" alt="Movie 1" />
+            <h3 class="content__item-title">Movie Title 1</h3>
+          </div>
+          <div class="content__item">
+            <img src="movie2.jpg" alt="Movie 2" />
+            <h3 class="content__item-title">Movie Title 2</h3>
+          </div>
+          <!-- Add more movie items as needed -->
+        </div>
       </div>
     </section>
   </body>
