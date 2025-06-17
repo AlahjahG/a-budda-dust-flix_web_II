@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Dependencies backup
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

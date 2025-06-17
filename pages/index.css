@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.hero__title {
+  font-size: 3em;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  top: 518px;
+  z-index: 1;
+  position: absolute;
+}
+.hero__description {
+  font-size: 1.2em;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  position: absolute;
+}
+
+.hero {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.hero__overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  position: absolute;
+}
+
+.hero__video {
+}
+
+.hero__button-container {
+  margin-top: 20px;
+  position: absolute;
+  bottom: 10%;
+}
+
+.hero__action-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fe540b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero__action-button:hover {
+  background-color: #e03e00;
+}
+.content {
+  background-color: #f4f4f4;
+  padding: 20px;
+  height: 100vh;
+}
+.content__title {
+  font-size: 2em;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+.content__description {
+  font-size: 1.2em;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content__item-title {
+  font-size: 1.5em;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 10px;
+}
+.content__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 20px; /* Space between items */
+}
+
+.content__item {
+  background-color: #f4f4f4; /* Optional styling for items */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.content__item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.content__video {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
