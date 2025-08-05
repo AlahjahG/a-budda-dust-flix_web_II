@@ -8,7 +8,7 @@ A Film and Media house, specialize in design photography and film. Showcasing be
 
 \*\* Overviews
 
-Into
-Figma
-Images
-Video
+-Into
+-Figma
+-Images
+-Video
