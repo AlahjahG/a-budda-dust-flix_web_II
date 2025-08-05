@@ -6,9 +6,9 @@ A Film and Media house, specialize in design photography and film. Showcasing be
 2. Share and like post about movies
 3. Pitch movie ideas to other filmmakers
 
-\*\* Overviews
+### Overviews
 
--Into
--Figma
--Images
--Video
+- Into
+- Figma
+- Images
+- Video
